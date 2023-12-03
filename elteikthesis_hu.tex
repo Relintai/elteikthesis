@@ -68,39 +68,38 @@
 \chapter*{\acklabel}
 \addcontentsline{toc}{chapter}{\acklabel}
 Amennyiben a szakdolgozati / diplomamunka projekted pénzügyi támogatást kapott egy projektből vagy az egyetemtől, jellemzően kötelező feltüntetni a dolgozatban is. A dolgozat elkészítéséhez segítséget nyújtó oktatók, hallgatótársak, kollégák felé is nyilvánítható külön köszönet.
+\cleardoublepage
 
 % Appendices (optional) - useful for detailed information in long tables, many and/or large figures, etc.
 %\appendix
 %\input{samples_hu/sim.tex}
-%\cleardoublepage
+\cleardoublepage
 
 % Bibliography (mandatory)
 \phantomsection
+\chapter*{\biblabel}
 \addcontentsline{toc}{chapter}{\biblabel}
-\renewcommand{\bibname}{\biblabel}
-\begin{thebibliography}{0}
-	
-	\bibitem{dahl1972structured}
-	\textbf{Dahl, O. J. and Dijkstra, E. W. and Hoare, C. A. R.h}:\\
-	Structured Programming\\
-	\textbf{Academic Press Ltd.}, (1972), ISBN: 0-12-200550-3
 
-	\bibitem{cormen2009algorithms}
-	\textbf{Cormen, Thomas H. and Leiserson, Charles E. and Rivest, Ronald L. and Stein, Clifford}:\\
-	Introduction to Algorithms, Third Edition\\
-	\textbf{The MIT Press}, (2009), ISBN: 0262033844, 9780262033848
+\label{bib:dahl1972structured}
+\textbf{Dahl, O. J. and Dijkstra, E. W. and Hoare, C. A. R.h}:\\
+Structured Programming\\
+\textbf{Academic Press Ltd.}, (1972), ISBN: 0-12-200550-3
 
-	\bibitem{dijkstra1979goto}
-	\textbf{Dijkstra, E.}:\\
-	Classics in Software Engineering\\
-	\textbf{Yourdon Press}, (1979), ISBN: 0-917072-14-6
+\label{bib:cormen2009algorithms}
+\textbf{Cormen, Thomas H. and Leiserson, Charles E. and Rivest, Ronald L. and Stein, Clifford}:\\
+Introduction to Algorithms, Third Edition\\
+\textbf{The MIT Press}, (2009), ISBN: 0262033844, 9780262033848
 
-	\bibitem{krasner1988mvc}
-	\textbf{Krasner, Glenn E. and Pope, Stephen T.}:\\
-	A Cookbook for Using the Model-View-Controller User Interface Paradigm in Smalltalk-80\\
-	\textbf{J. Object Oriented Program.}, (1972), ISBN: 0-12-200550-3
+\label{bib:dijkstra1979goto}
+\textbf{Dijkstra, E.}:\\
+Classics in Software Engineering\\
+\textbf{Yourdon Press}, (1979), ISBN: 0-917072-14-6
 
-\end{thebibliography}
+\label{bib:krasner1988mvc}
+\textbf{Krasner, Glenn E. and Pope, Stephen T.}:\\
+A Cookbook for Using the Model-View-Controller User Interface Paradigm in Smalltalk-80\\
+\textbf{J. Object Oriented Program.}, (1972), ISBN: 0-12-200550-3
+
 \cleardoublepage
 
 % List of figures (optional) - useful over 3-5 figures

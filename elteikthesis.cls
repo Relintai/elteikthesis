@@ -393,11 +393,11 @@
 % ------------------------------
 % Bibliography
 \RequirePackage[autostyle=true]{csquotes}
-\RequirePackage[
-	backend=bibtex,
-	style=numeric, % style of bibliography
-	sorting=none   % sorting of references
-]{biblatex}
+%\RequirePackage[
+%	backend=bibtex,
+%	style=numeric, % style of bibliography
+%	sorting=none   % sorting of references
+%]{biblatex}
 % ------------------------------
 
 % ------------------------------
