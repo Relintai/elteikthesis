@@ -60,13 +60,13 @@
 
 % ------------------------------
 % Character encoding, language
-\RequirePackage{iftex} % XeTex or LuaTex
-\iftutex
-	\RequirePackage{fontspec}
-\else % other (PdfTex)
-	\RequirePackage[utf8]{inputenc}
-	\RequirePackage[T1]{fontenc}
-\fi
+% Uncomment if you use XeTex or LuaTex:
+%\RequirePackage{fontspec}
+% For PdfTex: (Comment out if you use XeTex or LuaTex):
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+% PdfTex END
+
 \RequirePackage[english,hungarian]{babel}
 \RequirePackage{indentfirst}
 % ------------------------------
