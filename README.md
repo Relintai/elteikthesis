@@ -21,8 +21,7 @@ pdflatex elteikthesis_en.tex
 # Generate bibliography
 bibtex elteikthesis_en
 # Generate nomenclature (optional)
-makeindex -s nomencl.ist -t elteikthesis_en.nlg \
-  -o elteikthesis_en.nls elteikthesis_en.nlo
+makeindex -s nomencl.ist -t elteikthesis_en.nlg -o elteikthesis_en.nls elteikthesis_en.nlo
 # Generate final PDF file
 pdflatex elteikthesis_en.tex
 pdflatex elteikthesis_en.tex

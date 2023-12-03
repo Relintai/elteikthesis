@@ -16,8 +16,7 @@ pdflatex elteikthesis_hu.tex
 # Irodalomjegyzék generálása
 bibtex elteikthesis_hu
 # Jelölésjegyzék generálása (ha szükséges)
-makeindex -s nomencl.ist -t elteikthesis_hu.nlg \
-  -o elteikthesis_hu.nls elteikthesis_hu.nlo
+makeindex -s nomencl.ist -t elteikthesis_hu.nlg -o elteikthesis_hu.nls elteikthesis_hu.nlo
 # Végleges PDF fájl generálása
 pdflatex elteikthesis_hu.tex
 pdflatex elteikthesis_hu.tex
