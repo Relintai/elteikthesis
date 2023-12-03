@@ -13,16 +13,11 @@ A sablon magyar és angol nyelvű dokumentumok elkészítését is támogatja (l
 # elteikthesis_hu.aux fájl generálása
 # (PDF fájl még hibás hivatkozásokat fog tartalmazni)
 pdflatex elteikthesis_hu.tex
-# Irodalomjegyzék generálása
-bibtex elteikthesis_hu
-# Jelölésjegyzék generálása (ha szükséges)
-makeindex -s nomencl.ist -t elteikthesis_hu.nlg -o elteikthesis_hu.nls elteikthesis_hu.nlo
 # Végleges PDF fájl generálása
-pdflatex elteikthesis_hu.tex
 pdflatex elteikthesis_hu.tex
 ```
 
-**Megjegyzés:** az irodalomjegyzék változása esetén a `bibtex`, majd a `pdflatex` _kétszeri_ futtatása szükséges a helyes hivatkozások előállításához.
+**Megjegyzés:** az irodalomjegyzék változása esetén a `pdflatex` _kétszeri_ futtatása szükséges a helyes hivatkozások előállításához.
 
 A fordításhoz tetszőleges fejlesztő környezet is használható (pl. [TexStudio](https://www.texstudio.org/)), ugyanezen utasítások kiadásával.
 
