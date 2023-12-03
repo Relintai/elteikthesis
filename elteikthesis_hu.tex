@@ -32,9 +32,6 @@
 \city{Budapest} % city
 \logo{elte_cimer_szines} % logo
 
-% Add bibliography file
-\addbibresource{elteikthesis.bib}
-
 % The document
 \begin{document}
 
@@ -80,7 +77,30 @@ Amennyiben a szakdolgozati / diplomamunka projekted pénzügyi támogatást kapo
 % Bibliography (mandatory)
 \phantomsection
 \addcontentsline{toc}{chapter}{\biblabel}
-\printbibliography[title=\biblabel]
+\renewcommand{\bibname}{\biblabel}
+\begin{thebibliography}{0}
+	
+	\bibitem{dahl1972structured}
+	\textbf{Dahl, O. J. and Dijkstra, E. W. and Hoare, C. A. R.h}:\\
+	Structured Programming\\
+	\textbf{Academic Press Ltd.}, (1972), ISBN: 0-12-200550-3
+
+	\bibitem{cormen2009algorithms}
+	\textbf{Cormen, Thomas H. and Leiserson, Charles E. and Rivest, Ronald L. and Stein, Clifford}:\\
+	Introduction to Algorithms, Third Edition\\
+	\textbf{The MIT Press}, (2009), ISBN: 0262033844, 9780262033848
+
+	\bibitem{dijkstra1979goto}
+	\textbf{Dijkstra, E.}:\\
+	Classics in Software Engineering\\
+	\textbf{Yourdon Press}, (1979), ISBN: 0-917072-14-6
+
+	\bibitem{krasner1988mvc}
+	\textbf{Krasner, Glenn E. and Pope, Stephen T.}:\\
+	A Cookbook for Using the Model-View-Controller User Interface Paradigm in Smalltalk-80\\
+	\textbf{J. Object Oriented Program.}, (1972), ISBN: 0-12-200550-3
+
+\end{thebibliography}
 \cleardoublepage
 
 % List of figures (optional) - useful over 3-5 figures
