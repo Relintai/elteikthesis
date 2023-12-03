@@ -1,9 +1,7 @@
-[![CI status](https://github.com/mcserep/elteikthesis/actions/workflows/ci.yml/badge.svg)](https://github.com/mcserep/elteikthesis/actions/workflows/ci.yml)
-[![Overleaf template](https://img.shields.io/badge/Overleaf-ELTE%20FI%20Thesis%20Template-brightgreen)](https://www.overleaf.com/latex/templates/elte-fi-thesis-template/scjzzzbjvwfz)
-
-See [Hungarian version](README_hu.md).
 
 # ELTE FI bachelor and master thesis template
+
+See [Hungarian version](README_hu.md).
 
 The [elteikthesis_en.tex](elteikthesis_en.tex) and the produced [elteikthesis_en.pdf](elteikthesis_en.pdf) serves as an example of usage.
 This class template enforces the required formatting rules for bachelor and master theses and generates the cover page given on the provided metadata. The chapters of the example document follows the typical structure of a BSc thesis.
@@ -30,11 +28,6 @@ Compilation might be carried out through a preferred IDE (e.g. [TexStudio](https
 
 The minted package is also supported for syntax  highlighting. For its usage the Python interpreter and the `Pygments` package must be installed as a prerequisite.
 See the `elteikthesis_minted.tex` file for example and this [documentation](https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted).
-
-## Overleaf
-
-*Overleaf* is a free, easy to use online, collaborative LaTeX editor; similar like e.g. Google Docs, but for LateX documents.
-You can also find the latest release of this ELTE FI bachelor and master thesis template [on Overleaf](https://www.overleaf.com/latex/templates/elte-fi-thesis-template/scjzzzbjvwfz).
 
 ## Required packages (without completeness)
 
